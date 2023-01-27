@@ -1,0 +1,17 @@
+.success-title{
+    display:inline-block;
+}
+.ml10{
+    margin-left: 10px;
+    font-size: 35px;
+}
+.success-paragraph{
+    font-family: 'Karla';
+    font-size: 18px;
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.bookingd{
+    margin-top: 14px;
+}
