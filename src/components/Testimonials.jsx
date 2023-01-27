@@ -3,8 +3,6 @@ import img1 from '../assets/samir.jpg';
 import img2 from '../assets/yusron.jpg';
 import img3 from '../assets/alexander.jpg';
 import img4 from '../assets/duman.jpg';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Testimonials(){
     return(
         <section className='testimonials-section'>
@@ -26,11 +24,11 @@ export default function Testimonials(){
                              pepper, and dried oregano.
                             </p>
                             <div className='star-icons'>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
                             </div>
                     </div>
                     <div className='t-menus'>
@@ -48,11 +46,11 @@ export default function Testimonials(){
                              pepper, and dried oregano.
                             </p>
                             <div className='star-icons'>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
                             </div>
                     </div>
                     <div className='t-menus'>
@@ -70,11 +68,11 @@ export default function Testimonials(){
                              pepper, and dried oregano.
                             </p>
                             <div className='star-icons'>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
                             </div>
                     </div>
                     <div className='t-menus'>
@@ -92,11 +90,11 @@ export default function Testimonials(){
                              pepper, and dried oregano.
                             </p>
                             <div className='star-icons'>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
-                                <FontAwesomeIcon icon={faStar}/>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
                             </div>
                     </div>
             </div>

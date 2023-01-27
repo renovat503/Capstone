@@ -1,19 +1,6 @@
 import React,{useState,useReducer} from 'react'
 import '../styles/bookingForm.css'
-import {
-    FormControl,
-    FormLabel,
-    FormErrorMessage,
-    FormHelperText,
-    Input,
-    Select,
-    NumberInput,
-    NumberInputField,
-    NumberInputStepper,
-    NumberIncrementStepper,
-    NumberDecrementStepper,
-    Button,Box
-  } from '@chakra-ui/react'
+import {Box} from '@chakra-ui/react'
   import { useNavigate } from 'react-router-dom';
 
 export default function BookingForm({initialTimes,dispatch,submitForm}) {

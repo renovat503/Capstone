@@ -1,13 +1,6 @@
 import React from "react";
 import '../styles/confirmBooking.css'
 import { useLocation,useNavigate } from "react-router-dom";
-import {
-    FormControl,
-    FormLabel,
-    Input,
-    Textarea,
-    Button
-  } from '@chakra-ui/react'
 export default function ConfirmedBooking({dispatch}){
 
     const location = useLocation();
@@ -41,20 +34,17 @@ export default function ConfirmedBooking({dispatch}){
                         <h1 className="tdpo">Occasion</h1>
                         <h1 className="tdpov">{location.state.occasion}</h1>
                     </div>
-                    <form onSubmit={handleSubmit}>
-                        <FormControl mt={6} >
-                            <FormLabel>Enter your name</FormLabel>
-                            <Input name="date" isRequired mt={2}  type="text" placeholder='Please enter your name' />
-                            <FormLabel>Phone #</FormLabel>
-                            <Input name="date" isRequired mt={2}  type="tel" placeholder='Please Enter Phone #' />
-                            <FormLabel>Additional requests</FormLabel>
-                            <Textarea placeholder='Here is a sample placeholder' />
-                            </FormControl>
-                            <FormControl mt={4}>
-                            <Button type='submit' colorScheme='teal' size='md'>
-                                Confirm Booking
-                            </Button>
-                        </FormControl>
+                    <form onSubmit={handleSubmit} style={{display: "grid",gap:"10px"}}>
+
+                            <label className='form-labels' htmlFor="res-name">Enter your name *</label>
+                            <input required className='form-input' name="name"/>
+
+                            <label className='form-labels' htmlFor="res-phone">Enter Phone #*</label>
+                            <input  type='number' required className='form-input' name="name"/>
+
+                            <label className='form-labels' htmlFor="res-phone">Additional request</label>
+                            <textarea className='form-input' placeholder='Here is a sample placeholder' />
+                            <button className='form-input continue-button' type="submit">Confirm Booking</button>
                         </form>
                 </div>
         </div>

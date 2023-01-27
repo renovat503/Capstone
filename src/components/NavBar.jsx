@@ -1,7 +1,5 @@
 import '../styles/navbar.css'
 import logo from '../assets/logo.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Navbar(){
@@ -14,9 +12,7 @@ export default function Navbar(){
                     <h4 className='menu-text'>Menu</h4>
                     <h4 className='menu-text'>Reservations</h4>
                     <h4 className='menu-text order'>Order Online</h4>
-                    <FontAwesomeIcon className='shopping-icon' icon={faShoppingBag} />
-
-
+                    <i class="fa-solid fa-shopping-bag shopping-icon"/>
                 </div>
             </div>
             </div>)

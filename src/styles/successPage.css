@@ -4,6 +4,7 @@
 .ml10{
     margin-left: 10px;
     font-size: 35px;
+    color:#495e57;
 }
 .success-paragraph{
     font-family: 'Karla';
@@ -14,4 +15,12 @@
 }
 .bookingd{
     margin-top: 14px;
+}
+.back-home{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    background-color:#495e57;
+    color: white;
+    font-family: 'Karla';
 }
