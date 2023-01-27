@@ -11,8 +11,6 @@ const [numbr,setNumbr] = useState("");
 const [occasion,setOccasion] = useState("");
 const navigate = new useNavigate();
 
-console.log(numbr)
-
 function isDisabled(){
     if(time ==="" || date ==="" || numbr ===""){
     return true;

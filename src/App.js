@@ -23,18 +23,13 @@ import SuccessPage from './components/SuccessPage';
 }
 
 const today = new Date();
-console.log(fetchAPI(today));
-
-
  export function initializeTimes(){
   const times = fetchAPI(today);
   return {"times" : times};
 }
 
 function App() {
-  const [availableTimes,dispatch] = useReducer(updateTimes,initializeTimes());
-
-  console.log(availableTimes);
+const [availableTimes,dispatch] = useReducer(updateTimes,initializeTimes());
 
 
   return (
